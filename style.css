@@ -1,0 +1,165 @@
+:root{
+    --primary-color:#6366F1;
+    --grey:#D1D5DB;
+    --dark-blue: #003580;
+    --dark-grey: #374151;
+    --blue_lt:#60A5FA;
+    --blue_dk:#2563EB;
+    --green_lt:#A7F3D0;
+    --green_dk:#059669;
+    --pink_lt:#FECACA;
+    --pink_dk:#F87171;
+    --shadow_lt:#E0E7FF;
+    --danger:#DC2626;
+}
+
+
+*box-sizing{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+background-color: var(--dark-blue);
+align-items: center;
+padding: 2rem;
+
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin: 0 auto;
+    font-size: larger;
+}
+
+.menu li{
+   padding: 0.5rem;
+}
+
+.social_links li{
+    padding: 0.5rem;
+    font-size: large;
+}
+
+.servive-container{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1rem;
+}
+
+.service_box{
+  border: 0.5px solid transparent;
+  flex-basis: 30%;
+  padding: 0.5rem;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.service-button button{
+    background-color: var(--dark-blue);
+    color: white;
+    padding:0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: medium;
+   
+}
+
+.service-button{
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.service_box img {
+    max-width: 350px;
+    min-width: 350px;
+    max-height:250px;
+    min-height: 250px;
+ 
+}
+
+.service_box p{
+    max-width: 300px;
+}
+
+
+.main{
+    display: flex;
+}
+
+.main ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main li{
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--dark-blue);
+    margin: 0.5rem;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+aside{
+   flex-basis: 20vw; 
+
+   padding: 0.5rem;
+}
+
+aside img{
+    width: 100%;
+    height: 35%;
+}
+
+article{
+    margin: 1rem;
+}
+
+footer{
+    background-color: var(--dark-blue);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.service-header{
+   font-size: larger;
+  margin-top: 0.5rem;
+}
+
+
+
+
+
+
